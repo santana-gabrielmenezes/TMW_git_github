@@ -1,0 +1,9 @@
+Comandos git:
+
+    git commit -> Salva localmente as alterações do repositório.
+        -m -> usado para inserir uma mensagem no commit
+    git config <configuração especificada> -> Acessa as configurações especificada do diretório git localmente
+        user.name -> Apresenta o nome do usuário
+        --global user.name "Nome do Usuário" -> Altera o nome do usuário para o valor entre aspas
+        user.email -> Apresenta o email do usuário
+        -- global user.email "emaildousuario@email.com" -> Altera o email do usuário para o valor entre aspas
