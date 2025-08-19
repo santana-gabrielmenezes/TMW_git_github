@@ -7,3 +7,4 @@ Comandos git:
         --global user.name "Nome do Usuário" -> Altera o nome do usuário para o valor entre aspas
         user.email -> Apresenta o email do usuário
         -- global user.email "emaildousuario@email.com" -> Altera o email do usuário para o valor entre aspas
+    git log -> Apresenta o histórico de commits
