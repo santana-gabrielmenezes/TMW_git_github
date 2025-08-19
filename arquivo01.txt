@@ -17,9 +17,12 @@ Comandos git:
         git reset <hash do commit> -> Restaura o commit indicado
 
     git branch -> Apresenta as branchs do projeto
+        git branch -D <nome da branch> -> deleta a branch indicada sem excluir os registros dos commits
 
     git checkout -> Move o ponteiro HEAD do git para um commit ou branch definido atualizando os arquivos do diretório para corresponderem à versão escolhida.
         git checkout <branch definida> -> Muda o ponteiro HEAD para a branch definida
         git checkout <hash do commit definido> -> Muda o ponteiro HEAD para o commit definido
         git checkout -- <>nome do arquivo> -> Desfaz as alterações do arquivo
         git checkout -b "Nome da nova branch" -> Cria uma nova branch com o nome especificado entre aspas
+
+    git merge <nome da branch> -> mescla as a branch atual com a branch indicada
