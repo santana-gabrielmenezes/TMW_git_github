@@ -1,3 +1,7 @@
+Comandos bash:
+
+    mkdir <nome da nova pasta> -> cria uma nova pasta
+
 Comandos git:
 
     git add <nome do arquivo>
@@ -25,4 +29,10 @@ Comandos git:
         git checkout -- <>nome do arquivo> -> Desfaz as alterações do arquivo
         git checkout -b "Nome da nova branch" -> Cria uma nova branch com o nome especificado entre aspas
 
-    git merge <nome da branch> -> mescla as a branch atual com a branch indicada
+    git merge <nome da branch> -> Mescla as a branch atual com a branch indicada
+
+    git clone <endereço do repositório remoto> -> Cria uma cópia local de um repositório remoto (na nuvem)
+
+    git push <endereço do repositório remoto> <nome da branch> -> Envia o conteúdo do repositório local para o repositório remoto na branch especificada
+        git push origin <nome da branch> -> Envia o conteúdo do repositório local especificamente para o repositório remoto de origem (de onde foram originalmente clonados)
+    
