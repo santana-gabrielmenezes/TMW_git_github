@@ -1,9 +1,16 @@
-Comandos bash:
+comandos bash:
 
+    pwd -> mostra em qual diretório vocês está
+    ls -> mostra o que tem dentro do diretório atual
+        ls -a -> mostra todas as pastas do diretório incluindo as pastas ocultas
+    clear -> limpa a tela
+    cd -> moda de diretório
     mkdir <nome da nova pasta> -> cria uma nova pasta
 
 Comandos git:
 
+    git init -> inicializa um versionamento git no diretório especificado
+    git status -> mostra o estado atual do diretório
     git add <nome do arquivo>
         git add . -> Adiciona todos os arquivos (alterados e novos) do repositório no commit
 
@@ -35,4 +42,11 @@ Comandos git:
 
     git push <endereço do repositório remoto> <nome da branch> -> Envia o conteúdo do repositório local para o repositório remoto na branch especificada
         git push origin <nome da branch> -> Envia o conteúdo do repositório local especificamente para o repositório remoto de origem (de onde foram originalmente clonados)
+
+Notas:
+
+    * todo diretório apresenta duas opções que são o . e ..
+        * . -> usado para se referir ao diretório atual
+        * .. -> usado para se referir ao diretório hierarquicamente superio ao diretório atual
+    * pastas que iniciam com . são consideradas pastas invisíveis e não aparecem no comando ls
     
