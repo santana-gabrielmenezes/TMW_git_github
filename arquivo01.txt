@@ -43,6 +43,8 @@ Comandos git:
     git push <endereço do repositório remoto> <nome da branch> -> Envia o conteúdo do repositório local para o repositório remoto na branch especificada
         git push origin <nome da branch> -> Envia o conteúdo do repositório local especificamente para o repositório remoto de origem (de onde foram originalmente clonados)
 
+    git pull -> Sincroniza os arquivos trazendo do repositório remoto para o repositório local
+
 Notas:
 
     * todo diretório apresenta duas opções que são o . e ..
