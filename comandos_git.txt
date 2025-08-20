@@ -1,16 +1,22 @@
 comandos bash:
 
     pwd -> Mostra em qual diretório vocês está
+
     ls -> Mostra o que tem dentro do diretório atual
         ls -a -> Mostra todas as pastas do diretório incluindo as pastas ocultas
+    
     clear -> Limpa a tela
+    
     cd -> Muda de diretório
+    
     mkdir <nome da nova pasta> -> cria uma nova pasta
 
 Comandos git:
 
     git init -> Inicializa um versionamento git no diretório especificado
+
     git status -> Mostra o estado atual do diretório
+    
     git add <nome do arquivo>
         git add . -> Adiciona todos os arquivos (alterados e novos) do repositório no commit
 
@@ -56,4 +62,4 @@ Notas:
     É possível usar chaves SSH para auto autenticar o git local de maneira que não é necessário entrar com login e senha nas interações com o diretório remoto
 
     Para "baixar" um diretório interio é usada a ferramenta Fork direto no site do github
-        Para sincronizar o diretório pessoal com o diretorio de origem do Fork. Para isso, basta precionar a opção "sync fork" na página principal do diretório pessoal
+        Para sincronizar o diretório pessoal com o diretorio de origem do Fork. Para isso, basta selecionar a opção "sync fork" na página principal do diretório pessoal e depois a opção "update branch"
