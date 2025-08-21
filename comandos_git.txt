@@ -72,3 +72,4 @@ Notas:
     O git add ignora pastas que estejam vazias ou que tenham apenas arquivos ignorados pelo .gitignore
     
     Para que uma pasta do repositório local seja incluida no git add mesmo se estiver vazia ou com arquivos ignorados, crie na pasta um nome arquivo nomeado por ".gitkeep"
+        Não é necessário inserir nada no arqui .gitkeep
