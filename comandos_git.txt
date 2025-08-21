@@ -63,3 +63,8 @@ Notas:
 
     Para "baixar" um diretório interio é usada a ferramenta Fork direto no site do github
         Para sincronizar o diretório pessoal com o diretorio de origem do Fork. Para isso, basta selecionar a opção "sync fork" na página principal do diretório pessoal e depois a opção "update branch"
+
+    Para que um ou mais arquivos sejam ignorados duranto o git add é usado o .gitignore
+        Para inseriri o .gitignore, na mesma pasta do diretório git, crie um nome arquivo com nomeado por ".gitignore"
+        Dentro deste arquivo digite os nomes dos arquivos a serem ignorados, um em cada linha
+        É possível usar o *.<extensão> para ignorar todos os arquivos finalizados com a mesma extensão. Ex.: *.cvs vai ignorar todos os arquivos com extensão .cvs
